@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 241, 241, 0.573);
+}
+
+.loginForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+label {
+    display: flex;
+}
+
+#Email{
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+#password{
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+.passwordFirst {
+    padding-top: 10px;
+}
+
+.padding5 {
+    display: block;
+    padding-top: 5px;
+}
+
+.recovery-signin{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Sign{
+    cursor: pointer;
+    background-color: rgba(255, 200, 0, 0.768);
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px 60px;
+    font-weight: bold;
+    
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+#Email::placeholder {
+    padding-left: 8px;
+}
+
+
+#password::placeholder {
+    padding-left: 8px;
+}
